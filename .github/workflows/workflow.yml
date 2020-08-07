@@ -32,7 +32,7 @@ jobs:
           git init
           git config user.name  "Marcos Macedo"
           git config user.email "marcosdesenvolvimento@gmail.com"
-          git remote add secure-origin https://${{ secrets.GITHUB_TOKEN }}@github.com/MMaEngenharia/perfil.git
+          git remote add secure-origin https://${{ secrets.ACCESS_TOKEN }}@github.com/mmaengenharia/perfil.git
           git checkout -b gh-pages
           git add .
           git commit -m "Add New Commit"
