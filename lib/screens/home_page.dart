@@ -1,14 +1,14 @@
 import 'package:dynamic_theme/dynamic_theme.dart';
-import 'package:explore/widgets/web_scrollbar.dart';
-import 'package:explore/widgets/bottom_bar.dart';
-import 'package:explore/widgets/carousel.dart';
-import 'package:explore/widgets/destination_heading.dart';
-import 'package:explore/widgets/explore_drawer.dart';
-import 'package:explore/widgets/featured_heading.dart';
-import 'package:explore/widgets/featured_tiles.dart';
-import 'package:explore/widgets/floating_quick_access_bar.dart';
-import 'package:explore/widgets/responsive.dart';
-import 'package:explore/widgets/top_bar_contents.dart';
+import 'package:perfil/widgets/web_scrollbar.dart';
+import 'package:perfil/widgets/bottom_bar.dart';
+import 'package:perfil/widgets/carousel.dart';
+import 'package:perfil/widgets/destination_heading.dart';
+import 'package:perfil/widgets/perfil_drawer.dart';
+import 'package:perfil/widgets/featured_heading.dart';
+import 'package:perfil/widgets/featured_tiles.dart';
+import 'package:perfil/widgets/floating_quick_access_bar.dart';
+import 'package:perfil/widgets/responsive.dart';
+import 'package:perfil/widgets/top_bar_contents.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -67,7 +67,7 @@ class _HomePageState extends State<HomePage> {
                 ),
               ],
               title: Text(
-                'EXPLORE',
+                'PERFIL',
                 style: TextStyle(
                   color: Colors.blueGrey[100],
                   fontSize: 20,
@@ -81,7 +81,7 @@ class _HomePageState extends State<HomePage> {
               preferredSize: Size(screenSize.width, 1000),
               child: TopBarContents(_opacity),
             ),
-      drawer: ExploreDrawer(),
+      drawer: PerfilDrawer(),
       body: WebScrollbar(
         color: Colors.blueGrey,
         backgroundColor: Colors.blueGrey.withOpacity(0.3),

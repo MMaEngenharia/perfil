@@ -1,5 +1,5 @@
 <!-- <p align="center">
-  <img src="https://github.com/sbis04/explore/raw/master/screenshots/explore_cover_updated.gif" alt="Explore Cover"/>
+  <img src="https://github.com/sbis04/perfil/raw/master/screenshots/perfil_cover_updated.gif" alt="perfil Cover"/>
 </p> -->
 
 # License

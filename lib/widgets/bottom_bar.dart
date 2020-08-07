@@ -1,6 +1,6 @@
-import 'package:explore/widgets/bottom_bar_column.dart';
-import 'package:explore/widgets/info_text.dart';
-import 'package:explore/widgets/responsive.dart';
+import 'package:perfil/widgets/bottom_bar_column.dart';
+import 'package:perfil/widgets/info_text.dart';
+import 'package:perfil/widgets/responsive.dart';
 import 'package:flutter/material.dart';
 
 class BottomBar extends StatelessWidget {
@@ -20,20 +20,20 @@ class BottomBar extends StatelessWidget {
                   mainAxisSize: MainAxisSize.max,
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
+                    // BottomBarColumn(
+                    //   heading: 'SOBRE',
+                    //   s1: 'Contate-Nos',
+                    //   s2: 'Sobre Nós',
+                    //   s3: 'Profissão',
+                    // ),
+                    // BottomBarColumn(
+                    //   heading: 'AJUDA',
+                    //   s1: 'Forma de pagamento',
+                    //   s2: 'Cancelamento',
+                    //   s3: 'FAQ',
+                    // ),
                     BottomBarColumn(
-                      heading: 'SOBRE',
-                      s1: 'Contate-Nos',
-                      s2: 'Sobre Nós',
-                      s3: 'Profissão',
-                    ),
-                    BottomBarColumn(
-                      heading: 'AJUDA',
-                      s1: 'Forma de pagamento',
-                      s2: 'Cancelamento',
-                      s3: 'FAQ',
-                    ),
-                    BottomBarColumn(
-                      heading: 'SOCIAL',
+                      heading: 'REDE SOCIAL',
                       s1: 'Twitter',
                       s2: 'Facebook',
                       s3: 'YouTube',
@@ -63,7 +63,7 @@ class BottomBar extends StatelessWidget {
                 ),
                 SizedBox(height: 20),
                 Text(
-                  'Copyright © 2020 | EXPLORE',
+                  'Copyright © 2020 | PERFIL',
                   style: TextStyle(
                     color: Colors.blueGrey[300],
                     fontSize: 14,
@@ -77,20 +77,20 @@ class BottomBar extends StatelessWidget {
                   mainAxisSize: MainAxisSize.max,
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
+                    // BottomBarColumn(
+                    //   heading: 'SOBRE',
+                    //   s1: 'Contate-Nos',
+                    //   s2: 'Sobre Nós',
+                    //   s3: 'Profissão',
+                    // ),
+                    // BottomBarColumn(
+                    //   heading: 'AJUDA',
+                    //   s1: 'Forma de pagamento',
+                    //   s2: 'Cancelamento',
+                    //   s3: 'FAQ',
+                    // ),
                     BottomBarColumn(
-                      heading: 'SOBRE',
-                      s1: 'Contate-Nos',
-                      s2: 'Sobre Nós',
-                      s3: 'Profissão',
-                    ),
-                    BottomBarColumn(
-                      heading: 'AJUDA',
-                      s1: 'Forma de pagamento',
-                      s2: 'Cancelamento',
-                      s3: 'FAQ',
-                    ),
-                    BottomBarColumn(
-                      heading: 'SOCIAL',
+                      heading: 'REDE SOCIAL',
                       s1: 'Twitter',
                       s2: 'Facebook',
                       s3: 'YouTube',
@@ -126,7 +126,7 @@ class BottomBar extends StatelessWidget {
                 ),
                 SizedBox(height: 20),
                 Text(
-                  'Copyright © 2020 | EXPLORE',
+                  'Copyright © 2020 | PERFIL',
                   style: TextStyle(
                     color: Colors.blueGrey[300],
                     fontSize: 14,

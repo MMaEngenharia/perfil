@@ -1,5 +1,5 @@
-import 'package:explore/screens/home_page.dart';
-import 'package:explore/utils/authentication.dart';
+import 'package:perfil/screens/home_page.dart';
+import 'package:perfil/utils/authentication.dart';
 import 'package:flutter/material.dart';
 
 import 'google_sign_in_button.dart';
@@ -83,7 +83,7 @@ class _AuthDialogState extends State<AuthDialog> {
               children: [
                 Center(
                   child: Text(
-                    'EXPLORE',
+                    'PERFIL',
                     style: TextStyle(
                       color: Theme.of(context).textTheme.headline1.color,
                       fontSize: 24,

@@ -1,19 +1,19 @@
-import 'package:explore/screens/home_page.dart';
-import 'package:explore/utils/authentication.dart';
+import 'package:perfil/screens/home_page.dart';
+import 'package:perfil/utils/authentication.dart';
 import 'package:flutter/material.dart';
 
 import 'auth_dialog.dart';
 
-class ExploreDrawer extends StatefulWidget {
-  const ExploreDrawer({
+class PerfilDrawer extends StatefulWidget {
+  const PerfilDrawer({
     Key key,
   }) : super(key: key);
 
   @override
-  _ExploreDrawerState createState() => _ExploreDrawerState();
+  _PerfilDrawerState createState() => _PerfilDrawerState();
 }
 
-class _ExploreDrawerState extends State<ExploreDrawer> {
+class _PerfilDrawerState extends State<PerfilDrawer> {
   bool _isProcessing = false;
   @override
   Widget build(BuildContext context) {
@@ -158,7 +158,7 @@ class _ExploreDrawerState extends State<ExploreDrawer> {
                 child: Align(
                   alignment: Alignment.bottomCenter,
                   child: Text(
-                    'Copyright © 2020 | EXPLORE',
+                    'Copyright © 2020 | PERFIL',
                     style: TextStyle(
                       color: Colors.blueGrey[300],
                       fontSize: 14,

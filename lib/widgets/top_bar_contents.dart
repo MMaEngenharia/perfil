@@ -1,7 +1,7 @@
 import 'package:dynamic_theme/dynamic_theme.dart';
-import 'package:explore/screens/home_page.dart';
-import 'package:explore/utils/authentication.dart';
-import 'package:explore/widgets/auth_dialog.dart';
+import 'package:perfil/screens/home_page.dart';
+import 'package:perfil/utils/authentication.dart';
+import 'package:perfil/widgets/auth_dialog.dart';
 import 'package:flutter/material.dart';
 
 class TopBarContents extends StatefulWidget {
@@ -41,7 +41,7 @@ class _TopBarContentsState extends State<TopBarContents> {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Text(
-                'EXPLORE',
+                'PERFIL',
                 style: TextStyle(
                   color: Colors.blueGrey[100],
                   fontSize: 20,
